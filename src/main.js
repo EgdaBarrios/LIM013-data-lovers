@@ -408,9 +408,8 @@ const extractTypePok = (dataType) => {
     })}
 
 
+//-----------Intro---------------------------------------------------------------------------
 
-//**************Egda****************
-/*************Intro***************/
 document.getElementById("enterBtn").onclick = function() { 
   
     document.getElementById("landingPage").style.display = "none"; 
