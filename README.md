@@ -11,13 +11,17 @@
 * [7. Vista de la aplicación en distintos dispositivos](#7-vista-de-la-aplicación-en-distintos-dispositivos)
 
 
+***
+
 ## 1. Introducción
 
 Esta aplicación ha sido diseñada y desarrollada en función a una base de datos suministrada, para mostrar, filtrar y manipular data de pokemones.
 
+
 ## 2. Resumen de la aplicación
 
 Página web POKÉDEX, donde el usuario (jugador, tanto novato como experimentado, de la app Pokémon Go) podrá visualizar, buscar, e interactuar fácil e intuitivamente con la información necesaria a la hora de escoger los pokemones que integrarán su equipo y serán utilizados en batalla, considerando que el objetivo del juego es ganar la(s) batalla(s) contra otro(s) "entrenador(es)".
+
 
 ## 3. Definición del producto
 
@@ -33,6 +37,7 @@ El cual sometimos a feedback y pulimos hasta obtener el prototipo de alta:
 
 Con toda esta información sobre la mesa, continuamos con la implementación de nuestra página web dirigida a usuarios que ya conocen y juegan Pokémon Go. 
 
+
 ## 4. Diseño de la Interfaz de Usuario
 
 En ella se presenta la información básica y detallada de los diferentes personajes, con una interfaz llamativa inspirada en las pantallas de alta definicón de los centros Pokémon (Pokémon Center) en Japón, que invita a interactuar libremente sobre ella. 
@@ -40,6 +45,7 @@ En ella se presenta la información básica y detallada de los diferentes person
 En primera instancia se muestra una lista de personajes con sus carácterísticas básicas (imágen, número, nombre y tipo), posibilitando acceder a información más detallada de cada uno de ellos (desbilidades, tamaño, descripción, estadísticas, evoluciones);  otra pestaña, en este caso desplegable, permite filtrar data en base a la condición de tipo; un campo (input) facilita la búsqueda de los personajes digitando su número y nombre; y haciendo "click" en cuatro botones gráficos, es posible ordenarlos en forma ascendente y descendente, tanto alfabéticamente, como por la cantidad de su poder. 
 
 De acuerdo a nuestra investigación, la mayoría de usuarios utiliza dispositivos móviles, por lo que hemos implementado la teoria de "mobile first"; a la hora de diseñar la versión del desktop hemos decidido cambiar el formato de la interfaz sacando provecho a todo el ancho de la pantalla, compartiéndola.
+
 
 ## 5. Historias de usuario
 
@@ -55,6 +61,7 @@ De acuerdo a nuestra investigación, la mayoría de usuarios utiliza dispositivo
 
 6. Yo como jugador Pokémon Go, quiero poder ordenar los pokemones por  promedio de estadísticas , para poder encontrar los mas fuertes primero.
 
+
 ## 6. Test de usabilidad
 
 * En el prototipo inicial el logo tenía un fondo y mayor dimensión. En un feedback, recomendaron bajarle la intensidad, para no competir y/o distraer del resto de la información.
@@ -67,20 +74,16 @@ De acuerdo a nuestra investigación, la mayoría de usuarios utiliza dispositivo
 
 * En general, recibimos opiniones positivas sobre la apariencia y funcionamiento de la interfaz.
 
+
 ## 7. Vista de la aplicación en distintos dispositivos
 
 ### Vista en desktop
-
 ![prototipo desktop](src/images/index-html-desktop.jpg)
-
 ![prototipo desktop toggle](src/images/index-html-toggle-desktop.jpg)
-
 ![prototipo desktop card](src/images/index-html-card-desktop.jpg)
 
 ### Vista en tablet
-
 ![prototipo tablet](src/images/index-html-Tablet.jpg)
 
 ### Vista en smartphone
-
 ![prototipo Celphone](src/images/index-html-Celphone.jpg)
