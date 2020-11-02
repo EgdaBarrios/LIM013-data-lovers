@@ -33,6 +33,7 @@ Teniendo en cuenta lo anterior, dimos inicio al diseño de la primera interfaz c
 ![prototipo baja fidelidad](src/images/Propotipo-papel-baja-fidelidad.jpg)
 
 El cual sometimos a feedback y pulimos hasta obtener el prototipo de alta:
+
 ![prototipo en alta fidelidad](src/images/Propotipo-Figma-alta-fidelidad.jpg)
 
 Con toda esta información sobre la mesa, continuamos con la implementación de nuestra página web dirigida a usuarios que ya conocen y juegan Pokémon Go. 
